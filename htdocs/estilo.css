@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+background: white;
+background-image: url("audi.jpg");
+background-size: cover;
+
+}
+.navegacion{
+  width: 1000px;
+  height: 30px
+  margin: auto;
+  background: #100f;
+}
+.navegacion ul{
+  list-style: none;
+
+}
+.menu > li{
+  /*position: relative;*/
+  display: inline-block;
+}
+.menu > li > a{
+  display: block;
+  padding: 5px 20px;
+  color: yellow;
+  font-family: 'Arial'
+  text-decoration:none;
+}
+.menu li a:hover{
+  color: white;
+  transition: all.3s;
+}
+.submenu{
+  position: absolute;
+  background: black;
+}
+.submenu{
+  display: block;
+  padding: 15px;
+  color:white;
+  font-family: 'Arial';
+  text-decoration: none;
+}
+
+.submenu1{
+  position: absolute;
+  background: black;
+}
+.submenu1{
+  display: block;
+  padding: 15px;
+  color:white;
+  font-family: 'Arial';
+  text-decoration: none;
+}
+
+.submenu2{
+  position: absolute;
+  background: black;
+}
+.submenu2{
+  display: block;
+  padding: 15px;
+  color:#fff;
+  font-family: 'Arial';
+  text-decoration: none;
+}
+.menu li ul{
+  display: none;
+  position: absolute;
+  min-width: 150px;
+}
+.menu li:hover >ul{
+  display: block;
+}
+h1{
+  color: #ffff;
+}

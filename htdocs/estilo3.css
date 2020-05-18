@@ -1,0 +1,19 @@
+body{
+background: white;
+background-image: url("5.jpg");
+background-size: cover;
+
+color: black;
+font-family: 'Arial'
+text-decoration:none;
+
+}
+
+a {
+    color: yellow;
+}
+b{
+
+  color: pink;
+  font-family: 'Arial'
+}
